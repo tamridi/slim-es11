@@ -23,6 +23,15 @@ class Classe{
     public function getNome(){
         return $this->nome;
     }
+
+    public function getAlunnoByNome($nome){
+        foreach($this->alunni as $a){
+            if($nome == $a->getNome()){
+                return $a;
+            }
+        }
+        return null;
+    }
 }
 
 

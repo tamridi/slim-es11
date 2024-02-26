@@ -19,7 +19,7 @@
         }
 
         public function getEta(){
-            return $this->cognome;
+            return $this->eta;
         }
 
         public function setNome(){

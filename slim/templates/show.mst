@@ -1,0 +1,12 @@
+{{#alunno}}
+
+    {{getNome}} {{getCognome}} {{getEta}}
+
+{{/alunno}}
+
+{{^alunno}}
+
+    Alunno inesistente.
+
+{{/alunno}}
+

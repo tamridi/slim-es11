@@ -1,8 +1,8 @@
-<h1>cactus</h1>
+<h1>Classe</h1>
 
 {{getNome}}
 
-<h1>cactus</h1>
+<h1>Alunni</h1>
 
 <ul>
     {{#getArray}}
